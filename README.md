@@ -6,9 +6,10 @@ Arena 45 is a modern fitness training facility offering EMS Training, CrossFit, 
 
 ![Arena 45](./public/ARENA.png)
 
-## 🚀 Features
+## Features
 
 ### Frontend
+
 - ✅ **Modern UI** - Built with Next.js 15, TypeScript, and Tailwind CSS
 - ✅ **Responsive Design** - Mobile-first approach
 - ✅ **Dynamic Content** - Programs and testimonials from backend
@@ -18,6 +19,7 @@ Arena 45 is a modern fitness training facility offering EMS Training, CrossFit, 
 - ✅ **shadcn/ui** - Beautiful UI components
 
 ### Backend
+
 - ✅ **RESTful API** - Express.js with TypeScript
 - ✅ **Database** - MongoDB with Mongoose
 - ✅ **User Management** - Register, login, and authentication
@@ -29,6 +31,7 @@ Arena 45 is a modern fitness training facility offering EMS Training, CrossFit, 
 ## 📚 Tech Stack
 
 ### Frontend
+
 - **Framework:** Next.js 15 (App Router)
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS 4.1.9
@@ -38,6 +41,7 @@ Arena 45 is a modern fitness training facility offering EMS Training, CrossFit, 
 - **Notifications:** Sonner
 
 ### Backend
+
 - **Framework:** Express.js
 - **Database:** MongoDB with Mongoose
 - **Language:** TypeScript
@@ -72,24 +76,28 @@ Arena 45/
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js 18+ 
+
+- Node.js 18+
 - MongoDB (local or Atlas)
 - npm or pnpm
 
 ### Installation
 
 1. **Clone the repository**
+
 ```bash
 git clone https://github.com/Bedia-dh/Gym_Arena_Landing.git
 cd Gym_Arena_Landing
 ```
 
 2. **Install frontend dependencies**
+
 ```bash
 npm install
 ```
 
 3. **Install backend dependencies**
+
 ```bash
 cd backend
 npm install
@@ -98,11 +106,13 @@ npm install
 4. **Set up environment variables**
 
 **Frontend `.env.local`:**
+
 ```env
 NEXT_PUBLIC_API_URL=http://localhost:3001
 ```
 
 **Backend `.env`:**
+
 ```env
 PORT=3001
 NODE_ENV=development
@@ -116,6 +126,7 @@ FRONTEND_URL=http://localhost:3000
 ```
 
 5. **Start MongoDB**
+
 ```bash
 # Local MongoDB
 mongod
@@ -124,18 +135,21 @@ mongod
 ```
 
 6. **Start the backend**
+
 ```bash
 cd backend
 npm run dev
 ```
 
 7. **Start the frontend**
+
 ```bash
 # In root directory
 npm run dev
 ```
 
 8. **Open browser**
+
 ```
 http://localhost:3000
 ```
@@ -143,6 +157,7 @@ http://localhost:3000
 ## 📡 API Endpoints
 
 ### Bookings
+
 - `POST /api/bookings` - Create booking
 - `GET /api/bookings` - List all
 - `GET /api/bookings/:id` - Get by ID
@@ -150,12 +165,14 @@ http://localhost:3000
 - `DELETE /api/bookings/:id` - Delete
 
 ### Contacts
+
 - `POST /api/contacts` - Submit contact
 - `GET /api/contacts` - List all
 - `GET /api/contacts/:id` - Get by ID
 - `PATCH /api/contacts/:id` - Update status
 
 ### Users
+
 - `POST /api/users/register` - Register
 - `POST /api/users/login` - Login
 - `GET /api/users` - List all
@@ -164,6 +181,7 @@ http://localhost:3000
 - `DELETE /api/users/:id` - Delete
 
 ### Programs
+
 - `GET /api/programs` - List all
 - `GET /api/programs/:slug` - Get by slug
 - `POST /api/programs` - Create
@@ -171,18 +189,21 @@ http://localhost:3000
 - `DELETE /api/programs/:id` - Delete
 
 ### Testimonials
+
 - `GET /api/testimonials` - List all
 - `POST /api/testimonials` - Create
 - `PATCH /api/testimonials/:id` - Update
 - `DELETE /api/testimonials/:id` - Delete
 
 ### Statistics
+
 - `GET /api/stats` - Overall stats
 - `GET /api/stats/bookings` - Booking analytics
 
 ## 🧪 Testing with Postman
 
 Import the Postman collection:
+
 ```bash
 backend/POSTMAN_COLLECTION.json
 ```
@@ -207,6 +228,7 @@ backend/POSTMAN_COLLECTION.json
 ## 🎨 UI Components
 
 Built with shadcn/ui:
+
 - Cards, Buttons, Inputs
 - Forms, Dialogs, Alerts
 - Calendar, Select, Textarea
@@ -222,14 +244,17 @@ Built with shadcn/ui:
 ## 🚀 Deployment
 
 ### Frontend (Vercel)
+
 ```bash
 vercel deploy
 ```
 
 ### Backend (Vercel/Heroku/Railway)
+
 Configure environment variables and deploy.
 
 ### Database
+
 Use MongoDB Atlas for cloud hosting.
 
 ## 📝 License
@@ -239,6 +264,7 @@ MIT License
 ## 👨‍💻 Author
 
 **Bedia**
+
 - GitHub: [@Bedia-dh](https://github.com/Bedia-dh)
 
 ## 🙏 Acknowledgments
@@ -248,6 +274,3 @@ MIT License
 - All open-source contributors
 
 ---
-
-**Built with ❤️ for Arena 45**
-

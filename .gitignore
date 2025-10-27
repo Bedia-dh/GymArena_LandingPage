@@ -3,6 +3,13 @@ node_modules/
 .pnp
 .pnp.js
 
+
+#guidance 
+FRONTEND_BACKEND_INTEGRATION.md
+BACKEND_FEATURES.md
+POSTMAN_COLLECTION.json
+POSTMAN_TESTING_GUIDE.md
+
 # Testing
 coverage/
 
